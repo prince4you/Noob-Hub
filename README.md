@@ -13,25 +13,25 @@
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/noob-hub.git
+    https://github.com/prince4you/Noob-Hub.git
     ```
 
 2. **Navigate to the project directory**:
 
     ```bash
-    cd noob-hub
+    cd Noob-Hub
     ```
 
 3. **Make the script executable**:
 
     ```bash
-    chmod +x noob-hub.sh
+    chmod +x Noob-hub.sh
     ```
 
 4. **Run the script**:
 
     ```bash
-    ./noob-hub.sh
+    ./Noob-hub.sh
     ```
 
 ## Dependencies 📦
