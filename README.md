@@ -36,7 +36,7 @@
 ## single command Installation 🛠️
   
   ```bash
-  bash <(curl -s https://github.com/prince4you/Noob-Hub/blob/main/Noob-hub.sh)  
+bash <(curl -s https://raw.githubusercontent.com/prince4you/Noob-Hub/main/Noob-hub.sh)
   ```
 
 ## Dependencies 📦
