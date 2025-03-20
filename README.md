@@ -1,4 +1,4 @@
-
+![Noob Hub Image](https://github.com/prince4you/Noob-Hub/blob/main/noobhub.jpg)
 **Noob Hub v2.0** is a powerful automated script designed to streamline your setup process by installing essential packages, setting up **GitHub** authentication, and configuring the **Noob Hackers repository** with ease. Perfect for noobs and pros alike! 🔧💻
 
 ## Features 🌟
@@ -33,6 +33,7 @@
     ```bash
     ./Noob-hub.sh
     ```
+
 
 ## Dependencies 📦
 - **Git** 🖥️
