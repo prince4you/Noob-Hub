@@ -72,10 +72,9 @@ install_packages() {
 🛠 Install Required Packages
 install_dependencies() {
     echo -e "${CYAN}🔍 Checking & Installing Dependencies...${RESET}"
-    install_pkg "git"
-    install_pkg "nala"
-    install_pkg "gh"
-    install_pkg "curl"
+    apt install git
+    apt install gh
+    apt install nala
 }
 
 # 💾 Display Progress Bar Function
