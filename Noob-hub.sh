@@ -69,13 +69,25 @@ install_packages() {
     done
 }
 
-🛠 Install Required Packages
 install_dependencies() {
     echo -e "${CYAN}🔍 Checking & Installing Dependencies...${RESET}"
-    apt install git
-    apt install gh
-    apt install nala
+
+    # Required Packages List
+    packages=("git" "gh" "nala")
+
+    # Install Loop
+    for package in "${packages[@]}"; do
+        if dpkg -s "$package" &>/dev/null; then
+            echo -e "${GREEN}✅ $package is already installed.${RESET}"
+        else
+            echo -e "${YELLOW}⚡ Installing $package...${RESET}"
+            apt install -y "$package" &>/dev/null && \
+                echo -e "${GREEN}✅ $package installed successfully.${RESET}" || \
+                echo -e "${RED}❌ Failed to install $package!${RESET}"
+        fi
+    done
 }
+
 
 # 💾 Display Progress Bar Function
 progress_bar() {
