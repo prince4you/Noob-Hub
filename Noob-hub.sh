@@ -69,6 +69,15 @@ install_packages() {
     done
 }
 
+🛠 Install Required Packages
+install_dependencies() {
+    echo -e "${CYAN}🔍 Checking & Installing Dependencies...${RESET}"
+    install_pkg "git"
+    install_pkg "nala"
+    install_pkg "gh"
+    install_pkg "curl"
+}
+
 # 💾 Display Progress Bar Function
 progress_bar() {
     # Creating a simple progress bar
@@ -81,9 +90,6 @@ progress_bar() {
     echo -e "\n${GREEN}${SUCCESS} Installation Complete!${RESET}"
 }
 
-# 🔧 Run Installation Process
-#install_packages
-#progress_bar
 
 # 🛠️ Git Configuration
 git_config() {
