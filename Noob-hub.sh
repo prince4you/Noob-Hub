@@ -73,7 +73,7 @@ install_dependencies() {
     echo -e "${CYAN}🔍 Checking & Installing Dependencies...${RESET}"
 
     # Required Packages List
-    packages=("git" "gh" "nala")
+    packages=("git" "gh" "nala" "termux-apt-repo" "gnupg")
 
     # Install Loop
     for package in "${packages[@]}"; do
